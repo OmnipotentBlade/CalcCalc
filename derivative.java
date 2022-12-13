@@ -63,8 +63,10 @@ public class derivative {
                 fprime.add(deriv.toString());
             }
             else if (isVar == false && isExp == false) {
-                Integer deriv = 0;
-                fprime.add(deriv.toString());
+                if (function[i].equals("+")  == false || function[i].equals("-") == false) {
+                    Integer deriv = 0;
+                    fprime.add(deriv.toString());
+                }
             }
 
         }
@@ -81,6 +83,6 @@ public class derivative {
                 }
             } catch (IndexOutOfBoundsException e) {}
         }
-
+        System.out.println();
     }
 }
