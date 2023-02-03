@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-import java.math.*;
 
 public class derivative {
     public static void main(String[] args) {
